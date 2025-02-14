@@ -1,0 +1,41 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3vh;
+    width: 90%;
+    max-width: 600px;
+    text-align: center;
+}
+
+.container div {
+    font-size: 3vh;
+    font-family: sans-serif;
+}
+
+.container button {
+    padding: 2vh;
+    font-size: 2vh;
+}
+
+.container-btn {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5vw;
+    justify-content: center;
+}
+
+.container img {
+    max-width: 80%;
+    height: auto;
+}
+
+body {
+    background-color: lightpink;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
